@@ -27,11 +27,12 @@ module.exports = {
     contacts: {
       // don't remove fields, just make them empty string ''
       // https://github.com/gatsbyjs/gatsby/issues/2392
-      github: '',
-      twitter: '',
-      linkedin: '',
-      instagram: '',
-      facebook: '',
+      github: 'dospolov',
+      twitter: 'marat_dospolov',
+      linkedin: 'dospolov',
+      telegram: 'dospolov',
+      instagram: 'dospolov',
+      facebook: 'dospolov',
       email: '',
       rss: '/rss.xml'
     }

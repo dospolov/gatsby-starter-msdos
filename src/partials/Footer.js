@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import { Facebook, Linkedin, Twitter } from '../components/Icon'
 import { useSiteMetadata } from '../hooks'
 
@@ -40,7 +39,7 @@ function Footer() {
               </li>
               <li className="ml-4">
                 <a
-                  href={`https://www.linkedin.com/company/${linkedin}`}
+                  href={`https://www.linkedin.com/in/${linkedin}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Linkedin"
