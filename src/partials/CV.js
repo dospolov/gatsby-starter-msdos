@@ -1,5 +1,6 @@
 import React from 'react'
 import GeneralInfo from '../components/GeneralInfo'
+import Experiments from '../components/Experiments'
 
 function CV() {
   return (
@@ -8,6 +9,7 @@ function CV() {
         <div className="relative pt-20 pb-10 md:pt-20 md:pb-16">
           <div className="max-w-3xl mx-auto pb-12 md:pb-16">
             <GeneralInfo />
+            <Experiments />
           </div>
         </div>
       </div>

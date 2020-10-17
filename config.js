@@ -63,14 +63,14 @@ module.exports = {
         name: 'Account Surfer',
         locationIcon: 'windows-store.svg',
         description: 'Quickly switch between accounts and browsers',
-        builtWith: ['electron', 'react', 'redux', 'reduxsaga', 'fabric'],
+        builtWith: ['Electron', 'React', 'Redux', 'Redux-Saga', 'Fabric UI'],
         link: 'https://www.microsoft.com/en-us/p/account-surfer/9phvp9rjr7r7'
       },
       {
         name: 'Trello Bookmark',
         locationIcon: 'chrome-webstore.svg',
         description: 'Store your bookmarks as Trello Cards',
-        builtWith: ['apollo', 'react', 'antd'],
+        builtWith: ['Apollo', 'React', 'Ant Design'],
         link:
           'https://chrome.google.com/webstore/detail/trello-bookmark/ephoopolmejjnjkbbdcfgoohokhnekca',
         sourceCode: 'https://github.com/dospolov/trello-bookmark'
@@ -79,21 +79,21 @@ module.exports = {
         name: 'Blog',
         locationIcon: 'chrome.svg',
         description: 'Read about productivity and development',
-        builtWith: ['gatsby', 'react', 'netlify'],
+        builtWith: ['Gatsby', 'React', 'Netlify'],
         link: 'https://dospolov.com',
         sourceCode: 'https://github.com/dospolov/gatsby-starter-blog-and-cv'
       }
     ],
     pitchLine: 'My passions are — web-development, cognitive biases and anthropology.',
     topTech: [
-      'react',
-      'graphql',
-      'apollo',
-      'redux',
-      'reduxsaga',
-      'electron',
-      'gatsby',
-      'antd'
+      'React',
+      'GraphQL',
+      'Apollo',
+      'Redux',
+      'Redux-Saga',
+      'Electron',
+      'Gatsby',
+      'Ant Design'
     ],
     tech: [
       {
