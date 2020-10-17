@@ -1,6 +1,7 @@
 import React from 'react'
 import GeneralInfo from '../components/GeneralInfo'
 import Experiments from '../components/Experiments'
+import PitchLine from '../components/PitchLine'
 
 function CV() {
   return (
@@ -10,6 +11,7 @@ function CV() {
           <div className="max-w-3xl mx-auto pb-12 md:pb-16">
             <GeneralInfo />
             <Experiments />
+            <PitchLine />
           </div>
         </div>
       </div>
