@@ -2,6 +2,7 @@ import React from 'react'
 import GeneralInfo from '../components/GeneralInfo'
 import Experiments from '../components/Experiments'
 import PitchLine from '../components/PitchLine'
+import TopTech from '../components/TopTech'
 
 function CV() {
   return (
@@ -12,6 +13,7 @@ function CV() {
             <GeneralInfo />
             <Experiments />
             <PitchLine />
+            <TopTech />
           </div>
         </div>
       </div>

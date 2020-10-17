@@ -7,8 +7,7 @@ const Experiments = () => {
   } = useSiteMetadata()
   return (
     <>
-      <h3 className="text-center mt-10 mb-5">Experiments</h3>
-      <div className="flex">
+      <div className="flex mt-16">
         {experiments.map((experiment, i) => (
           <div className="pl-5 w-2/6 bg-purple-900 m-2 p-4" key={i}>
             <h4 className="mb-0 text-lg flex">

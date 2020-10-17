@@ -5,7 +5,7 @@ const PitchLine = () => {
   const {
     cv: { pitchLine }
   } = useSiteMetadata()
-  return <div className="text-center mt-6 mb-4">{pitchLine}</div>
+  return <div className="text-center mt-10 mb-4">{pitchLine}</div>
 }
 
 export default PitchLine

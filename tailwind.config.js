@@ -33,7 +33,8 @@ module.exports = {
         }
       },
       width: {
-        '65vw': '65vw'
+        '65vw': '65vw',
+        '1/8': '12.5%'
       },
       height: {
         '40vw': '40vw'
