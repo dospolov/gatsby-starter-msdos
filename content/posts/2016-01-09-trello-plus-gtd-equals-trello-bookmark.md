@@ -10,7 +10,7 @@ description: >-
 
   But one of the greatest things about being a programmer is that you can
   automate your routine.
-category: productivity
+poster: '/media/trello-gtd/03.png'
 tags:
   - trello
   - gtd

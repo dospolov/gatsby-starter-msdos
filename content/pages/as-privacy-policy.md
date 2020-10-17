@@ -2,8 +2,10 @@
 template: page
 title: Account Surfer Privacy Policy
 slug: pages/as-privacy-policy
+date: 2019-03-27T00:46:37.121Z
 draft: false
 ---
+
 Privacy Policy
 
 Effective date: July 30, 2019

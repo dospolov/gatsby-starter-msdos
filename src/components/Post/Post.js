@@ -59,19 +59,21 @@ const Post = ({
               </header>
 
               {/* Article image */}
-              <figure
-                className="mb-8 lg:-ml-32 lg:-mr-32"
-                data-aos="fade-up"
-                data-aos-delay="600"
-              >
-                <img
-                  className="w-full"
-                  src={poster}
-                  width="1024"
-                  height="576"
-                  alt="Article poster"
-                />
-              </figure>
+              {poster && (
+                <figure
+                  className="mb-8 lg:-ml-32 lg:-mr-32"
+                  data-aos="fade-up"
+                  data-aos-delay="600"
+                >
+                  <img
+                    className="w-full"
+                    src={poster}
+                    width="1024"
+                    height="576"
+                    alt="Article poster"
+                  />
+                </figure>
+              )}
 
               <div
                 className="post-content text-lg text-gray-400"
