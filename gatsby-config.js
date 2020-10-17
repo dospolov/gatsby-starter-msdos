@@ -9,7 +9,8 @@ module.exports = {
     description: siteConfig.description,
     copyright: siteConfig.copyright,
     menu: siteConfig.menu,
-    author: siteConfig.author
+    author: siteConfig.author,
+    cv: siteConfig.cv
   },
   plugins: [
     {

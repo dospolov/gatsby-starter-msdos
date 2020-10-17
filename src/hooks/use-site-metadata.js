@@ -28,6 +28,85 @@ const useSiteMetadata = () => {
             title
             subtitle
             keywords
+            cv {
+              header {
+                name
+                position
+                img {
+                  src
+                  alt
+                }
+                location
+                contacts {
+                  type
+                  link
+                  linkName
+                }
+              }
+              experiments {
+                name
+                locationIcon
+                description
+                builtWith
+                link
+                sourceCode
+              }
+              pitchLine
+              topTech
+              tech {
+                name
+                logo
+                website
+                displayInTopList
+              }
+              softSkills {
+                featured
+                other
+              }
+              hardSkills {
+                featured
+                other
+              }
+              experience {
+                company {
+                  name
+                  logoHeight
+                  logo
+                  period
+                }
+                projects {
+                  name
+                  logoHeight
+                  logo
+                  role
+                  description
+                  stack {
+                    me
+                    all
+                  }
+                  achievements
+                }
+              }
+              volunteer {
+                place
+                logo
+                logoHeight
+                period
+                description
+              }
+              education {
+                place
+                period
+                degree
+              }
+              recommendations {
+                name
+                jobTitle
+                photo
+                linkedin
+                text
+              }
+            }
           }
         }
       }

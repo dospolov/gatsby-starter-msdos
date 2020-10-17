@@ -4,16 +4,19 @@ import Tags from '../components/Tags'
 import AuthorAndDate from '../components/AuthorAndDate'
 import Poster from '../components/Poster'
 
-const LinkWrapper = props =>
-  props.externalLink ? (
-    <a href={props.link} target="_blank" rel="noopener noreferrer" {...props}>
-      {props.children}
+const LinkWrapper = props => {
+  const { externalLink, link, ...allProps } = props
+
+  return externalLink ? (
+    <a href={link} target="_blank" rel="noopener noreferrer" {...allProps}>
+      {allProps.children}
     </a>
   ) : (
-    <Link to={props.link} {...props}>
-      {props.children}
+    <Link to={link} {...allProps}>
+      {allProps.children}
     </Link>
   )
+}
 
 const BlogListItem = ({
   edge: {
