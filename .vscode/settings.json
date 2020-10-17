@@ -1,0 +1,26 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#321151",
+    "activityBar.activeBackground": "#321151",
+    "activityBar.activeBorder": "#84511c",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#84511c",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "titleBar.activeBackground": "#180827",
+    "titleBar.inactiveBackground": "#18082799",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveForeground": "#e7e7e799",
+    "statusBar.background": "#180827",
+    "statusBarItem.hoverBackground": "#321151",
+    "statusBar.foreground": "#e7e7e7"
+  },
+  "peacock.color": "#180827",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "typescript.quickSuggestionsForPaths": false,
+  "path-intellisense.mappings": {
+    "@": "${workspaceRoot}/src"
+  }
+}

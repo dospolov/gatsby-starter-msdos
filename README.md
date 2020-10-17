@@ -1,1 +1,0 @@
-# gatsby-starter-blog-and-cv-dark
