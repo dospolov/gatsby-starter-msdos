@@ -26,54 +26,21 @@ const Post = ({
               <header className="mb-8">
                 {/* Title and excerpt */}
                 <div className="text-center md:text-left">
-                  <h1 className="h1 mb-4" data-aos="fade-up">
-                    {title}
-                  </h1>
-                  <p
-                    className="text-xl text-gray-400"
-                    data-aos="fade-up"
-                    data-aos-delay="200"
-                  >
-                    {description}
-                  </p>
+                  <h1 className="h1 mb-4">{title}</h1>
+                  <p className="text-xl text-gray-400">{description}</p>
                 </div>
                 {/* Article meta */}
                 <div className="md:flex md:items-center md:justify-between mt-3">
                   {/* Author meta */}
-                  <div
-                    className="flex items-center justify-center"
-                    data-aos="fade-up"
-                    data-aos-delay="400"
-                  >
+                  <div className="flex items-center justify-center">
                     <AuthorAndDate {...{ date }} />
                   </div>
                   {/* Article tags */}
-                  <div
-                    className="flex justify-center mt-4 md:mt-0"
-                    data-aos="fade-up"
-                    data-aos-delay="600"
-                  >
+                  <div className="flex justify-center mt-4 md:mt-0">
                     <Tags {...{ tags }} />
                   </div>
                 </div>
               </header>
-
-              {/* Article image */}
-              {poster && (
-                <figure
-                  className="mb-8 lg:-ml-32 lg:-mr-32"
-                  data-aos="fade-up"
-                  data-aos-delay="600"
-                >
-                  <img
-                    className="w-full"
-                    src={poster}
-                    width="1024"
-                    height="576"
-                    alt="Article poster"
-                  />
-                </figure>
-              )}
 
               <div
                 className="post-content text-lg text-gray-400"

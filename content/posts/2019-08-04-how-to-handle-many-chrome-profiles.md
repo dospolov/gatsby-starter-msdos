@@ -5,7 +5,7 @@ slug: /posts/handle-chrome-profiles-with-account-surfer
 draft: false
 date: 2019-07-16T21:19:27.692Z
 description: Quickly switch between accounts and browsers on Windows with Account Surfer.
-poster: '/media/as-1/poster.png'
+poster: '/media/as-1/02.png'
 tags:
   - account-surfer
   - chrome

@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 function HeroHome() {
   return (
@@ -9,8 +8,6 @@ function HeroHome() {
         <div
           className="absolute left-0 bottom-0 -ml-20 hidden lg:block pointer-events-none"
           aria-hidden="true"
-          data-aos="fade-up"
-          data-aos-delay="400"
         >
           <svg
             className="max-w-full"

@@ -40,16 +40,11 @@ const BlogListItem = ({
     <div className="pb-12 md:pb-20">
       <article className={itemClassList}>
         {poster && (
-          <LinkWrapper
-            {...{ externalLink, link }}
-            className="relative block group"
-            data-aos="fade-right"
-            data-aos-delay="200"
-          >
+          <LinkWrapper {...{ externalLink, link }} className="relative block group">
             <Poster {...{ poster }} />
           </LinkWrapper>
         )}
-        <div data-aos="fade-left" data-aos-delay="200">
+        <div>
           <header>
             <div className="mb-3">
               <Tags {...{ tags }} />
