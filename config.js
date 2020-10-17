@@ -37,7 +37,7 @@ module.exports = {
     }
   },
   cv: {
-    header: {
+    generalInfo: {
       name: 'MARAT DOSPOLOV',
       position: 'JAVASCRIPT TECH LEADER',
       img: {

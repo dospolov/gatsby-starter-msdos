@@ -29,7 +29,7 @@ const useSiteMetadata = () => {
             subtitle
             keywords
             cv {
-              header {
+              generalInfo {
                 name
                 position
                 img {
