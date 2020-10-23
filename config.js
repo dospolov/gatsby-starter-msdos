@@ -1,9 +1,9 @@
 module.exports = {
   url: 'https://dospolov.com',
   title: `Marat Dospolov`,
-  description: 'Providing a fully automated cloud microservices infrastructure solution',
-  keywords: `microservices, microservices automation, cloud microservices automation, public cloud microservices automation, cloud automation, cloud infrastructure automation, cloud infrastructure, environment as a service, backend as a service, SaaS, Kubernetes, Kubernetes as a service, serverless, AWS, GCP, Azure, Terraform , Devop, Devops, Devop as a service, CI/CD, Continuous Integration , Continuous deployment, Centralized monitoring, Centralized logging, Devops automation, Jenkins, Jenknis as a service, Multi cloud, Cloud vendor lock, Cloud security, Reduce devop cost, Reduce coste, Reduce time, Vendor lock in, Cost management, Spot instances, Reserved instances, EKs, k8s, workingtogether, businesscontinuity , IaC, SecDevops, startups, SRE`,
-  subtitle: '',
+  description: 'Developer. Optimizer. Learner.',
+  keywords:
+    'account surfer, trello bookmark, trello, productivity, javascript, Marat Dospolov, choosy windows, browser selector',
   copyright: 'Dospolov.com © 2020',
   googleAnalyticsId: 'UA-6589522-7',
   menu: [

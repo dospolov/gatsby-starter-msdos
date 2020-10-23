@@ -26,7 +26,6 @@ const useSiteMetadata = () => {
             }
             url
             title
-            subtitle
             keywords
             cv {
               generalInfo {
