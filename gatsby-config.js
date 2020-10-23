@@ -163,13 +163,6 @@ module.exports = {
           head: true
         }
       }
-    },
-    {
-      resolve: `gatsby-plugin-hotjar`,
-      options: {
-        id: siteConfig.hotjar.id,
-        sv: siteConfig.hotjar.sv
-      }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

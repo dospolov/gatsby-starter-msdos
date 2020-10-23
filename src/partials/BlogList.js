@@ -3,7 +3,6 @@ import BlogListItem from './BlogListItem'
 import BlogListFeaturedItem from './BlogListFeaturedItem'
 
 function BlogList({ edges }) {
-  console.log(edges)
   return (
     <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
