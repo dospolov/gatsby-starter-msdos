@@ -3,6 +3,7 @@ template: post
 title: Block Youtube suggested videos overlay
 slug: /posts/block-youtube-suggested-videos-overlay
 draft: false
+featured: false
 priority: 0
 date: 2019-12-11T16:38:53.596Z
 description: >-

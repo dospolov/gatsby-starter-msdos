@@ -3,6 +3,7 @@ template: post
 title: Trello + GTD = Trello Bookmark
 slug: /posts/trello-plus-gtd-equals-trello-bookmark
 draft: false
+featured: false
 priority: 5
 date: 2019-03-27T00:46:37.121Z
 description: >-

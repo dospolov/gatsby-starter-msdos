@@ -3,6 +3,7 @@ template: post
 title: Account Surfer gets Microsoft Award
 slug: /posts/account-surfer-gets-microsoft-award
 draft: false
+featured: true
 priority: 0
 date: 2019-10-23T14:36:12.038Z
 description: >-

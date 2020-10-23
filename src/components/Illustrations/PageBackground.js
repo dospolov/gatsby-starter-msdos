@@ -1,6 +1,6 @@
 import React from 'react'
 
-function PageIllustration() {
+function PageBackground() {
   return (
     <svg
       className="absolute top-0 right-0 transform translate-x-1/2 -mr-16"
@@ -31,4 +31,4 @@ function PageIllustration() {
   )
 }
 
-export default PageIllustration
+export default PageBackground

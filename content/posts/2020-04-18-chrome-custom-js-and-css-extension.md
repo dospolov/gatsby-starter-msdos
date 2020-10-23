@@ -3,6 +3,7 @@ template: post
 title: Chrome custom JS and CSS extension
 slug: /posts/chrome-custom-js-and-css-extension
 draft: false
+featured: false
 priority: 0
 date: 2020-04-18T22:22:02.039Z
 description: Chrome custom JS and CSS extension

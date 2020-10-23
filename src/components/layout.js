@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../partials/Header'
 import Footer from '../partials/Footer'
-import PageIllustration from '../partials/PageIllustration'
+import PageBackground from '../components/Illustrations/PageBackground'
 import SEO from '../components/seo'
 import '../css/style.scss'
 
@@ -18,7 +18,7 @@ const Layout = ({ children, title, image }) => {
             className="relative max-w-6xl mx-auto h-0 pointer-events-none"
             aria-hidden="true"
           >
-            <PageIllustration />
+            <PageBackground />
           </div>
 
           {children}
