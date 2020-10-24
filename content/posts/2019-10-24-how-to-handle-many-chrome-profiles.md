@@ -13,6 +13,8 @@ tags:
   - windows
 ---
 
+`video: title: "Account Surfer": /media/as-1/poster.mp4`
+
 It’s very convenient to separate your areas of activity using accounts in Chrome. You don’t lose your bookmarks, you don’t have to log out anywhere, necessary extensions are already installed.
 
 You can [read more](https://www.makeuseof.com/tag/custom-chrome-browser-profiles/) how to organize your Chrome space better.

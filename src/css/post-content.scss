@@ -1,6 +1,8 @@
 .post-content {
   img {
-    margin: 2rem 0;
+    margin: 2rem auto;
+    max-width: 600px;
+    width: 100%;
   }
   blockquote {
     font-style: italic;
@@ -66,5 +68,8 @@
   }
   hr {
     margin-bottom: 2rem;
+  }
+  video {
+    margin: 0 auto;
   }
 }
