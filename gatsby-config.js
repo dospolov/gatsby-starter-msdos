@@ -7,7 +7,7 @@ module.exports = {
     keywords: siteConfig.keywords,
     description: siteConfig.description,
     copyright: siteConfig.copyright,
-    menu: siteConfig.menu,
+    disqusShortname: siteConfig.disqusShortname,
     author: siteConfig.author,
     cv: siteConfig.cv
   },

@@ -5,17 +5,8 @@ module.exports = {
   keywords:
     'account surfer, trello bookmark, trello, productivity, javascript, Marat Dospolov, choosy windows, browser selector',
   copyright: 'Dospolov.com © 2020',
+  disqusShortname: 'dospolov',
   googleAnalyticsId: 'UA-6589522-7',
-  menu: [
-    {
-      label: 'Blog',
-      path: '/'
-    },
-    {
-      label: 'CV',
-      path: '/cv'
-    }
-  ],
   author: {
     name: 'Marat Dospolov',
     photo: '',

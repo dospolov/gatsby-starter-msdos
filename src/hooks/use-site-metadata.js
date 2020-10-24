@@ -20,11 +20,8 @@ const useSiteMetadata = () => {
                 rss
               }
             }
-            menu {
-              label
-              path
-            }
             url
+            disqusShortname
             title
             keywords
             cv {
