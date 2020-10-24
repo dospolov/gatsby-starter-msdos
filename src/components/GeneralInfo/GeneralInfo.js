@@ -7,17 +7,17 @@ const GeneralInfo = () => {
   } = useSiteMetadata()
   return (
     <div>
-      <div className="flex">
+      <div className="sm:flex">
         {/* <div className="hide-mobile">
           <a href="/cv.pdf" target="_blank" className="no-print">
             <img src="/logos/pdf.svg" height="50" alt="pdf icon" />
           </a>
         </div> */}
-        <div className="w-2/6 text-right">
+        <div className="w-full sm:w-2/6 sm:text-right mb-5 sm:mb-0">
           <h2 className="text-2xl">{generalInfo.name}</h2>
           <h5>{generalInfo.position}</h5>
         </div>
-        <div className="w-2/6 text-center">
+        <div className="w-2/6 sm:text-center mb-5">
           <img
             src={generalInfo.img.src}
             alt={generalInfo.img.alt}
@@ -25,7 +25,7 @@ const GeneralInfo = () => {
             className="rounded-full inline-block"
           />
         </div>
-        <div className="w-2/6 text-lg">
+        <div className="w-full sm:w-2/6 text-lg">
           <div>{generalInfo.location}</div>
           <>
             {generalInfo.contacts.map(contact => (

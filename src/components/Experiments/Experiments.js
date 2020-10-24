@@ -7,9 +7,9 @@ const Experiments = () => {
   } = useSiteMetadata()
   return (
     <>
-      <div className="flex mt-16">
+      <div className="mt-16 sm:flex">
         {experiments.map((experiment, i) => (
-          <div className="pl-5 w-2/6 bg-purple-900 m-2 p-4" key={i}>
+          <div className="sm:pl-5 w-full sm:w-1/3 bg-purple-900 my-2 sm:m-2 p-4" key={i}>
             <h4 className="mb-0 text-lg flex">
               <a
                 href={experiment.link}
