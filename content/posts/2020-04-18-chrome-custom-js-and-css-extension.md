@@ -6,15 +6,13 @@ draft: false
 featured: false
 priority: 0
 date: 2020-04-18T22:22:02.039Z
-description: Chrome custom JS and CSS extension
+description: Using websites a lot - there might be a need to improve UX or UI
 poster: '/media/dna-1/dna-1.png'
 tags:
   - chrome
   - javascript
   - utilities
 ---
-
-Using websites a lot - there might be a need to improve UX or UI.
 
 For example, [Block Youtube suggested videos overlay](/posts/block-youtube-suggested-videos-overlay).
 

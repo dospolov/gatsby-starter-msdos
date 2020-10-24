@@ -6,9 +6,6 @@ draft: false
 featured: false
 priority: 0
 date: 2019-12-11T16:38:53.596Z
-description: >-
-  Often a part of a video is obstructed by the suggested video overlay. Here’s
-  how you can hide the overlay.
 poster: '/media/ublock-youtube-overlay/01.png'
 tags:
   - javascript

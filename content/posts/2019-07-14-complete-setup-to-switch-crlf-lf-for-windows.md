@@ -17,10 +17,6 @@ tags:
   - git
 ---
 
-Complete guide to force setup LF End-of-line for all your Git projects working on Windows.
-
----
-
 1. Run
 
 ```

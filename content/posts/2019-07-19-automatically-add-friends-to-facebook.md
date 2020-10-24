@@ -13,14 +13,9 @@ tags:
   - utilities
 ---
 
-Adds people with more than 10 common friends.
-
----
-
-Change the number to the desired: `var minSharedFriends = 10;`
-
-Run at this location: [https://www.facebook.com/?sk=ff
-](https://www.facebook.com/?sk=ff)
+1. Change the number to the desired: `var minSharedFriends = 10;`
+2. Run at this location: [https://www.facebook.com/?sk=ff
+   ](https://www.facebook.com/?sk=ff)
 
 ```javascript
 var minSharedFriends = 10

@@ -16,9 +16,9 @@ const Post = ({
         <div className="pt-20 pb-12 md:pb-20">
           <div className="max-w-3xl mx-auto">
             <article>
-              <div className="text-center md:text-left">
+              <div className="text-center md:text-left mb-8">
                 <h1 className="h1 mb-4">{title}</h1>
-                <p className="text-lg text-gray-400">{description}</p>
+                <p className="text-2xl text-gray-400">{description}</p>
               </div>
 
               <div

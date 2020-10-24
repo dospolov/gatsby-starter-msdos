@@ -19,12 +19,6 @@ tags:
   - plugin
 ---
 
-You know, I hate routine.
-
-But one of the greatest things about being a programmer is that you can automate your routine.
-
----
-
 As bequeathed by David Allen, in his brilliant GTD: “Put everything out needless of your head to keep it clean and concentrated.”
 
 Let’s see what gets there:
