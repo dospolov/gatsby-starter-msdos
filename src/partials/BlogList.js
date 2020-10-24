@@ -6,7 +6,7 @@ function BlogList({ edges }) {
   return (
     <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="pt-32">
+        <div className="pt-20">
           {edges
             .filter(edge => edge?.node?.frontmatter?.featured === true)
             .map(edge => (
