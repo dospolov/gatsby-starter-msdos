@@ -5,7 +5,7 @@ import { useSiteMetadata } from '../hooks'
 function Footer() {
   const {
     author: {
-      contacts: { twitter, linkedin, facebook }
+      contacts: { linkedin, facebook }
     }
   } = useSiteMetadata()
 
@@ -17,16 +17,6 @@ function Footer() {
           <div className="md:flex md:items-center md:justify-between">
             {/* Social links */}
             <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
-              <li>
-                <a
-                  href={`https://www.twitter.com/${twitter}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Twitter"
-                >
-                  <Twitter />
-                </a>
-              </li>
               <li className="ml-4">
                 <a
                   href={`https://fb.com/${facebook}`}

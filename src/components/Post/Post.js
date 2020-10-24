@@ -1,10 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { FacebookShareButton, LinkedinShareButton, TwitterShareButton } from 'react-share'
 import Tags from '../Tags'
 import AuthorAndDate from '../AuthorAndDate'
-import { Facebook, Linkedin, Twitter } from '../Icon'
-import { useSiteMetadata } from '../../hooks'
 
 const Post = ({
   data: {
@@ -14,9 +11,6 @@ const Post = ({
     }
   }
 }) => {
-  const { url } = useSiteMetadata()
-  const urlToShare = `${url}${slug}`
-
   return (
     <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -57,23 +51,6 @@ const Post = ({
                     </Link>
                     .
                   </div>
-                  <ul className="inline-flex mt-4 md:ml-4 md:mb-0">
-                    <li>
-                      <TwitterShareButton url={urlToShare} title={title}>
-                        <Twitter />
-                      </TwitterShareButton>
-                    </li>
-                    <li className="ml-4">
-                      <FacebookShareButton url={urlToShare} title={title}>
-                        <Facebook />
-                      </FacebookShareButton>
-                    </li>
-                    <li className="ml-4">
-                      <LinkedinShareButton url={urlToShare} title={title}>
-                        <Linkedin />
-                      </LinkedinShareButton>
-                    </li>
-                  </ul>
                 </div>
               </footer>
             </article>
