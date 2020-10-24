@@ -7,7 +7,7 @@ const BlogLink = props => {
 
   return externalLink ? (
     <a href={link} target="_blank" rel="noopener noreferrer" {...allProps}>
-      {allProps.children} <ExternalLink />
+      {allProps.children} {typeof allProps.children === 'string' && <ExternalLink />}
     </a>
   ) : (
     <Link to={link} {...allProps}>
