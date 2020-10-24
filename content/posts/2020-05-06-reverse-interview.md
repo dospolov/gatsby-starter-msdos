@@ -1,6 +1,6 @@
 ---
 template: post
-title: '[Reverse interview: Questions to ask the company during your interview
+title: '[Reverse interview: Questions to ask the company during interview
 ](https://github.com/dospolov/reverse-interview)'
 slug: /posts/reverse-interview
 draft: false

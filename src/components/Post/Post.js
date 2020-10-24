@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Tags from '../Tags'
 import AuthorAndDate from '../AuthorAndDate'
 
@@ -17,12 +16,18 @@ const Post = ({
         <div className="pt-20 pb-12 md:pb-20">
           <div className="max-w-3xl mx-auto">
             <article>
-              <header className="mb-8">
+              <div className="text-center md:text-left">
+                <h1 className="h1 mb-4">{title}</h1>
+                <p className="text-lg text-gray-400">{description}</p>
+              </div>
+
+              <div
+                className="post-content text-lg text-gray-400"
+                dangerouslySetInnerHTML={{ __html: html }}
+              />
+
+              <footer className="mb-8">
                 {/* Title and excerpt */}
-                <div className="text-center md:text-left">
-                  <h1 className="h1 mb-4">{title}</h1>
-                  <p className="text-xl text-gray-400">{description}</p>
-                </div>
                 {/* Article meta */}
                 <div className="md:flex md:items-center md:justify-between mt-3">
                   {/* Author meta */}
@@ -32,24 +37,6 @@ const Post = ({
                   {/* Article tags */}
                   <div className="flex justify-center mt-4 md:mt-0">
                     <Tags {...{ tags }} />
-                  </div>
-                </div>
-              </header>
-
-              <div
-                className="post-content text-lg text-gray-400"
-                dangerouslySetInnerHTML={{ __html: html }}
-              />
-
-              {/* Article footer */}
-              <footer>
-                <div className="md:flex md:items-center md:justify-between text-center md:text-left">
-                  <div className="text-lg text-gray-400 italic">
-                    Originally published at{' '}
-                    <Link to="https://dospolov.com/" className="text-gray-200">
-                      https://dospolov.com/
-                    </Link>
-                    .
                   </div>
                 </div>
               </footer>

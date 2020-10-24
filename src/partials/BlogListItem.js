@@ -1,22 +1,8 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Tags from '../components/Tags'
 import AuthorAndDate from '../components/AuthorAndDate'
 import Poster from '../components/Poster'
-
-const LinkWrapper = props => {
-  const { externalLink, link, ...allProps } = props
-
-  return externalLink ? (
-    <a href={link} target="_blank" rel="noopener noreferrer" {...allProps}>
-      {allProps.children}
-    </a>
-  ) : (
-    <Link to={link} {...allProps}>
-      {allProps.children}
-    </Link>
-  )
-}
+import BlogLink from '../components/BlogLink'
 
 const BlogListItem = ({
   edge: {
@@ -43,9 +29,9 @@ const BlogListItem = ({
     <div className="pb-12 md:pb-20">
       <article className={itemClassList}>
         {poster && (
-          <LinkWrapper {...{ externalLink, link }} className="relative block group">
+          <BlogLink {...{ externalLink, link }} className="relative block group">
             <Poster {...{ poster }} />
-          </LinkWrapper>
+          </BlogLink>
         )}
         <div>
           <header>
@@ -53,12 +39,12 @@ const BlogListItem = ({
               <Tags {...{ tags }} />
             </div>
             <h3 className="h3 text-2xl lg:text-3xl mb-2">
-              <LinkWrapper
+              <BlogLink
                 {...{ externalLink, link }}
                 className="hover:text-gray-100 transition duration-150 ease-in-out"
               >
                 {title}
-              </LinkWrapper>
+              </BlogLink>
             </h3>
           </header>
           <p className="text-lg text-gray-400 flex-grow">{description}</p>
