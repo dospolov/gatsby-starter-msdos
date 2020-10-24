@@ -31,10 +31,7 @@ const useSiteMetadata = () => {
               generalInfo {
                 name
                 position
-                img {
-                  src
-                  alt
-                }
+                photo
                 location
                 contacts {
                   type

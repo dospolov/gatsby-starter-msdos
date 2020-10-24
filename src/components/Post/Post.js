@@ -13,7 +13,7 @@ const Post = ({
   return (
     <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="pt-20 pb-12 md:pb-20">
+        <div className="pt-10 pb-12 md:pb-20">
           <div className="max-w-3xl mx-auto">
             <article>
               <div className="text-center md:text-left mb-8">

@@ -35,12 +35,9 @@ module.exports = {
   },
   cv: {
     generalInfo: {
-      name: 'MARAT DOSPOLOV',
-      position: 'JAVASCRIPT TECH LEADER',
-      img: {
-        src: '/photo.jpg',
-        alt: 'Marat Dospolov'
-      },
+      name: 'Marat Dospolov',
+      position: 'JavaScript Tech Leader',
+      photo: '/photo.jpg',
       location: 'Ukraine, Kyiv',
       contacts: [
         {

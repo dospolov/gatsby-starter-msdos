@@ -10,19 +10,15 @@ const Layout = ({ children, title, image }) => {
     <div className="font-inter antialiased bg-gray-900 text-gray-200 tracking-tight">
       <SEO {...{ title, image }} />
       <div className="flex flex-col min-h-screen overflow-hidden">
+        <div
+          className="relative max-w-6xl mx-auto h-0 pointer-events-none"
+          aria-hidden="true"
+        >
+          <PageBackground />
+        </div>
         <Header />
 
-        <main className="flex-grow">
-          {/*  Page illustration */}
-          <div
-            className="relative max-w-6xl mx-auto h-0 pointer-events-none"
-            aria-hidden="true"
-          >
-            <PageBackground />
-          </div>
-
-          {children}
-        </main>
+        {children}
         <Footer />
       </div>
     </div>
