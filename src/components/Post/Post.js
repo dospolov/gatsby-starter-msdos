@@ -6,7 +6,7 @@ const Post = ({
   data: {
     markdownRemark: {
       html,
-      frontmatter: { date, description, poster, slug, tags, title }
+      frontmatter: { date, description, posterUrl, slug, tags, title }
     }
   }
 }) => {

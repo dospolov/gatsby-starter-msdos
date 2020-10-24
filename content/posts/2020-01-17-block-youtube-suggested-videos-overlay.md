@@ -6,7 +6,7 @@ draft: false
 featured: false
 priority: 0
 date: 2019-12-11T16:38:53.596Z
-poster: '/media/ublock-youtube-overlay/01.png'
+posterUrl: '/media/ublock-youtube-overlay/01.png'
 tags:
   - javascript
   - youtube

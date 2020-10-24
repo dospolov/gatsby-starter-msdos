@@ -7,14 +7,10 @@ import BlogLink from '../components/BlogLink'
 const BlogListFeaturedItem = ({
   edge: {
     node: {
-      frontmatter: { description, poster, slug, tags, title, featured }
+      frontmatter: { description, posterUrl, slug, tags, title, featured }
     }
   }
 }) => {
-  const itemClassList = poster
-    ? 'max-w-sm mx-auto md:max-w-none grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-12 xl:gap-16 items-center'
-    : 'max-w-sm mx-auto md:max-w-none grid items-center'
-
   let link = slug
   let externalLink = false
   const isTitleLinkPattern = /(?=.*\[)(?=.*\])(?=.*\()(?=.*\))/i
@@ -40,10 +36,10 @@ const BlogListFeaturedItem = ({
             </div>
 
             <div className="relative flex flex-col lg:flex-row justify-between items-center">
-              <article className={itemClassList}>
-                {poster && (
+              <article className="max-w-sm mx-auto md:max-w-none grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-12 xl:gap-16 items-center">
+                {posterUrl && (
                   <BlogLink {...{ externalLink, link }} className="relative block group">
-                    <Poster {...{ poster }} />
+                    <Poster {...{ posterUrl, alt: title }} />
                   </BlogLink>
                 )}
                 <div>

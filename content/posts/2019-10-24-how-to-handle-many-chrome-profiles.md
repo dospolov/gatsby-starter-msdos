@@ -6,7 +6,7 @@ draft: false
 featured: true
 date: 2019-10-24T21:19:27.692Z
 description: Quickly switch between accounts and browsers on Windows with Account Surfer.
-poster: '/media/as-1/02.png'
+posterUrl: '/media/as-1/poster.mp4'
 tags:
   - account-surfer
   - chrome

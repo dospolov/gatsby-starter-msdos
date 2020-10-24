@@ -117,7 +117,7 @@ module.exports = {
                       frontmatter {
                         title
                         slug
-                        poster
+                        posterUrl
                         date
                         template
                         draft

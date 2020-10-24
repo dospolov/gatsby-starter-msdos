@@ -23,7 +23,7 @@ export const query = graphql`
       html
       frontmatter {
         slug
-        poster
+        posterUrl
         date
         description
         tags

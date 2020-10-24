@@ -7,17 +7,10 @@ import BlogLink from '../components/BlogLink'
 const BlogListItem = ({
   edge: {
     node: {
-      frontmatter: { description, date, poster, slug, tags, title }
+      frontmatter: { description, date, posterUrl, slug, tags, title }
     }
   }
 }) => {
-  // const itemClassList = poster
-  //   ? 'max-w-sm mx-auto md:max-w-none grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-12 xl:gap-16 items-center'
-  //   : 'max-w-sm mx-auto md:max-w-none grid items-center'
-
-  const itemClassList =
-    'max-w-sm mx-auto md:max-w-none grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-12 xl:gap-16 items-center'
-
   let link = slug
   let externalLink = false
   const isTitleLinkPattern = /(?=.*\[)(?=.*\])(?=.*\()(?=.*\))/i
@@ -30,10 +23,10 @@ const BlogListItem = ({
 
   return (
     <div className="pb-12 md:pb-20">
-      <article className={itemClassList}>
-        {poster ? (
+      <article className="max-w-sm mx-auto md:max-w-none grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-12 xl:gap-16 items-center">
+        {posterUrl ? (
           <BlogLink {...{ externalLink, link }} className="relative block group">
-            <Poster {...{ poster }} />
+            <Poster {...{ posterUrl, alt: title }} />
           </BlogLink>
         ) : (
           <div></div>

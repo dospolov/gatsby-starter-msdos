@@ -7,7 +7,7 @@ featured: false
 priority: 0
 date: 2020-04-18T22:22:02.039Z
 description: Using websites a lot - there might be a need to improve UX or UI
-poster: '/media/dna-1/dna-1.png'
+posterUrl: '/media/dna-1/dna-1.png'
 tags:
   - chrome
   - javascript

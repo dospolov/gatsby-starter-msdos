@@ -9,7 +9,7 @@ date: 2018-06-21T12:22:42.826Z
 description: >-
   Complete guide to force setup LF End-of-line for all your Git projects working
   on Windows.
-poster: '/media/crlf-to-lf/01.png'
+posterUrl: '/media/crlf-to-lf/01.png'
 tags:
   - vscode
   - javascript

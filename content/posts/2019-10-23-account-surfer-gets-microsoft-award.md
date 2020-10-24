@@ -9,7 +9,7 @@ date: 2019-10-23T14:36:12.038Z
 description: >-
   Account Surfer became "3rd in Best Business or Consumer Value" at Microsoft
   365 app award
-poster: '/media/as-award/01.png'
+posterUrl: '/media/as-award/01.png'
 tags:
   - account-surfer
   - chrome

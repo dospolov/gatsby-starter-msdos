@@ -15,7 +15,7 @@ collections:
       - { label: 'Template', name: 'template', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Slug', name: 'slug', widget: 'string' }
-      - { label: 'Poster', name: 'poster', widget: 'image' }
+      - { label: 'Poster', name: 'posterUrl', widget: 'image' }
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: true }
       - { label: 'Featured', name: 'featured', widget: 'boolean', default: false }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
