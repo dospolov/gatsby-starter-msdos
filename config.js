@@ -66,7 +66,7 @@ module.exports = {
         description: 'Read about productivity and development',
         builtWith: ['Gatsby', 'React', 'Netlify'],
         link: 'https://dospolov.com',
-        sourceCode: 'https://github.com/dospolov/gatsby-starter-blog-and-cv'
+        sourceCode: 'https://github.com/dospolov/gatsby-starter-msdos'
       }
     ],
     pitchLine: 'My passions are — web-development, cognitive biases and anthropology.',
