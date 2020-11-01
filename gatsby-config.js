@@ -9,7 +9,8 @@ module.exports = {
     copyright: siteConfig.copyright,
     disqusShortname: siteConfig.disqusShortname,
     author: siteConfig.author,
-    cv: siteConfig.cv
+    cv: siteConfig.cv,
+    siteUrl: siteConfig.url
   },
   plugins: [
     {
@@ -162,7 +163,8 @@ module.exports = {
           head: true
         }
       }
-    }
+    },
+    `gatsby-plugin-sitemap`
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
