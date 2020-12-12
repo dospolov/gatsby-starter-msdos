@@ -16,8 +16,13 @@ const createPages = async ({ graphql, actions }) => {
   })
 
   createPage({
-    path: '/cv',
-    component: path.resolve('./src/templates/cv-template.js')
+    path: '/cv-maker',
+    component: path.resolve('./src/templates/cv-maker-template.js')
+  })
+
+  createPage({
+    path: '/generated-cv',
+    component: path.resolve('./src/templates/generated-cv-template.js')
   })
 
   pageSlugs.map(slug =>

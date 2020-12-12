@@ -78,5 +78,6 @@ module.exports = {
     translate: ['responsive', 'hover', 'focus', 'group-hover'],
     boxShadow: ['responsive', 'hover', 'focus', 'focus-within'],
     opacity: ['responsive', 'hover', 'focus', 'group-hover']
-  }
+  },
+  plugins: [require('@tailwindcss/forms')]
 }
