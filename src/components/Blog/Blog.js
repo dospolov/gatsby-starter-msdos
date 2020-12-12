@@ -1,7 +1,7 @@
 import React from 'react'
-import BlogListItem from './BlogListItem'
+import FeedItem from './FeedItem'
 
-function BlogList({ edges }) {
+const Blog = ({ edges }) => {
   return (
     <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -9,20 +9,12 @@ function BlogList({ edges }) {
           {edges
             .filter(edge => edge?.node?.frontmatter?.featured === true)
             .map(edge => (
-              <BlogListItem
-                edge={edge}
-                key={edge.node.frontmatter.slug}
-                featured={true}
-              />
+              <FeedItem edge={edge} key={edge.node.frontmatter.slug} featured={true} />
             ))}
           {edges
             .filter(edge => edge?.node?.frontmatter?.featured !== true)
             .map(edge => (
-              <BlogListItem
-                edge={edge}
-                key={edge.node.frontmatter.slug}
-                featured={false}
-              />
+              <FeedItem edge={edge} key={edge.node.frontmatter.slug} featured={false} />
             ))}
         </div>
       </div>
@@ -30,4 +22,4 @@ function BlogList({ edges }) {
   )
 }
 
-export default BlogList
+export default Blog

@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
-import CVMaker from '../partials/CVMaker'
+import CVMaker from '../components/CVMaker'
 
 const CVMakerTemplate = () => {
   return (

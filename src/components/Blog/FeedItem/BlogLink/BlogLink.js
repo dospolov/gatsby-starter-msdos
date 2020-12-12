@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import ExternalLink from '../Icon/ExternalLink'
+import { ExternalLink } from '../../../shared'
 
 const BlogLink = props => {
   const { externalLink, link, ...allProps } = props

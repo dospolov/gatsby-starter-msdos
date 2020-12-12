@@ -1,14 +1,14 @@
 import React from 'react'
-import Header from '../partials/Header'
-import Footer from '../partials/Footer'
-import PageBackground from '../components/Illustrations/PageBackground'
-import SEO from '../components/seo'
-import '../css/style.scss'
+import Header from './Header'
+import Footer from './Footer'
+// import SEO from './SEO'
+import { PageBackground } from '../shared'
+import '../../css/style.scss'
 
 const Layout = ({ children, title, image }) => {
   return (
     <div className="font-inter antialiased bg-gray-900 text-gray-200 tracking-tight">
-      <SEO {...{ title, image }} />
+      {/* <SEO {...{ title, image }} /> */}
       <div className="flex flex-col min-h-screen overflow-hidden">
         <div
           className="relative max-w-6xl mx-auto h-0 pointer-events-none"

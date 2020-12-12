@@ -1,9 +1,7 @@
 import React from 'react'
-import Tags from '../components/Tags'
-import AuthorAndDate from '../components/AuthorAndDate'
-import CtaBackground from '../components/Illustrations/CtaBackground'
-import Poster from '../components/Poster'
-import BlogLink from '../components/BlogLink'
+import { Tags, AuthorAndDate, CtaBackground } from '../../shared'
+import Poster from './Poster'
+import BlogLink from './BlogLink'
 
 const ItemWrapper = props => {
   const { featured, ...allProps } = props
@@ -34,7 +32,7 @@ const ItemWrapper = props => {
   )
 }
 
-const BlogListItem = ({
+const FeedItem = ({
   edge: {
     node: {
       frontmatter: { description, date, posterUrl, slug, tags, title }
@@ -88,4 +86,4 @@ const BlogListItem = ({
   )
 }
 
-export default BlogListItem
+export default FeedItem

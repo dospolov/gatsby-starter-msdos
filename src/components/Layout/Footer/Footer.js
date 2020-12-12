@@ -1,6 +1,6 @@
 import React from 'react'
-import { Facebook, Linkedin, Twitter } from '../components/Icon'
-import { useSiteMetadata } from '../hooks'
+import { Facebook, Linkedin } from '../../shared'
+import { useSiteMetadata } from '../../../hooks'
 
 function Footer() {
   const {

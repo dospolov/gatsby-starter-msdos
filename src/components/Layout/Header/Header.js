@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { useSiteMetadata } from '../hooks'
+import { useSiteMetadata } from '../../../hooks'
 
 function Header() {
   const {

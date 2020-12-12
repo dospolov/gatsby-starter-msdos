@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
-import Post from '../partials/Post'
+import Post from '../components/Post'
 
 const PostTemplate = ({ data }) => {
   return (

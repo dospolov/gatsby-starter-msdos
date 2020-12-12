@@ -1,7 +1,6 @@
 import React from 'react'
-import Tags from '../components/Tags'
-import AuthorAndDate from '../components/AuthorAndDate'
-import Comments from '../components/Comments'
+import { Tags, AuthorAndDate } from '../shared'
+import Comments from './Comments'
 
 const Post = ({
   data: {

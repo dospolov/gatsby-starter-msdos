@@ -1,5 +1,5 @@
 import React from 'react'
-import { useSiteMetadata } from '../../hooks'
+import { useSiteMetadata } from '../../../hooks'
 
 const GeneralInfo = () => {
   const {

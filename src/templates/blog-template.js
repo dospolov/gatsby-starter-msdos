@@ -1,14 +1,14 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
-import BlogList from '../partials/BlogList'
+import Blog from '../components/Blog'
 
 const BlogTemplate = ({ data }) => {
   const { edges } = data.allMarkdownRemark
 
   return (
     <Layout title="Blog">
-      <BlogList edges={edges} />
+      <Blog edges={edges} />
     </Layout>
   )
 }
