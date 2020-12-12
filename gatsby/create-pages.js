@@ -1,7 +1,9 @@
 const path = require('path')
+const getContext = require('./getContext')
 
 const createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
+  const { pageSlugs, postSlugs } = await getContext(graphql)
 
   createPage({
     path: '/',
@@ -18,40 +20,21 @@ const createPages = async ({ graphql, actions }) => {
     component: path.resolve('./src/templates/cv-template.js')
   })
 
-  // // Posts and pages from markdown
-  const result = await graphql(`
-    {
-      allMarkdownRemark(filter: { frontmatter: { draft: { ne: true } } }) {
-        edges {
-          node {
-            frontmatter {
-              template
-              slug
-            }
-          }
-        }
-      }
-    }
-  `)
+  pageSlugs.map(slug =>
+    createPage({
+      path: slug,
+      component: path.resolve('./src/templates/page-template.js'),
+      context: { slug }
+    })
+  )
 
-  const { edges } = result.data.allMarkdownRemark
-
-  edges.map(edge => {
-    if (edge?.node?.frontmatter?.template === 'page') {
-      createPage({
-        path: edge.node.frontmatter.slug,
-        component: path.resolve('./src/templates/page-template.js'),
-        context: { slug: edge.node.frontmatter.slug }
-      })
-    } else if (edge?.node?.frontmatter?.template === 'post') {
-      createPage({
-        path: edge.node.frontmatter.slug,
-        component: path.resolve('./src/templates/post-template.js'),
-        context: { slug: edge.node.frontmatter.slug }
-      })
-    }
-    return null
-  })
+  postSlugs.map(slug =>
+    createPage({
+      path: slug,
+      component: path.resolve('./src/templates/post-template.js'),
+      context: { slug }
+    })
+  )
 }
 
 module.exports = createPages
