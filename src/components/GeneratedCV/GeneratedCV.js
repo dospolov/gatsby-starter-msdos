@@ -1,11 +1,14 @@
 import React from 'react'
 
-const CV = ({ state: { email, city } }) => (
+const CV = ({ state: { name, city, position, email, github } }) => (
   <section>
     <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
       <div className="relative pt-10 pb-10">
-        <div className="max-w-3xl mx-auto pb-12 md:pb-16">{email}</div>
-        <div className="max-w-3xl mx-auto pb-12 md:pb-16">{city}</div>
+        <div className="max-w-3xl mx-auto">{name}</div>
+        <div className="max-w-3xl mx-auto">{city}</div>
+        <div className="max-w-3xl mx-auto">{position}</div>
+        <div className="max-w-3xl mx-auto">{email}</div>
+        <div className="max-w-3xl mx-auto">{github}</div>
       </div>
     </div>
   </section>
