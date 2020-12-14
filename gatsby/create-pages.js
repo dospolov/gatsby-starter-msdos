@@ -20,10 +20,10 @@ const createPages = async ({ graphql, actions }) => {
     component: path.resolve('./src/templates/cv-maker-template.js')
   })
 
-  // createPage({
-  //   path: '/generated-cv',
-  //   component: path.resolve('./src/templates/generated-cv-template.js')
-  // })
+  createPage({
+    path: '/generated-cv',
+    component: path.resolve('./src/templates/generated-cv-template.js')
+  })
 
   pageSlugs.map(slug =>
     createPage({
