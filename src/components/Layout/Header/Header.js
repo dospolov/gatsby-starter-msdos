@@ -38,7 +38,7 @@ function Header() {
                 Blog
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 to="/cv-maker"
                 className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
@@ -46,7 +46,7 @@ function Header() {
               >
                 CV
               </Link>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>
