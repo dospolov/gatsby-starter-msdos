@@ -1,6 +1,6 @@
 import React from 'react'
 import { Tags, AuthorAndDate } from '../shared'
-import Comments from './Comments'
+// import Comments from './Comments'
 
 const Post = ({
   data: {
@@ -46,9 +46,9 @@ const Post = ({
           </div>
         </div>
       </section>
-      <div className="mb-10 w-4/5 mx-auto">
+      {/* <div className="mb-10 w-4/5 mx-auto">
         <Comments postSlug={slug} postTitle={title} />
-      </div>
+      </div> */}
     </>
   )
 }
