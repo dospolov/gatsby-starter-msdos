@@ -1,5 +1,5 @@
 import React from 'react'
-// import ReactDisqusComments from 'react-disqus-comments'
+import { DiscussionEmbed } from 'disqus-react'
 import { useSiteMetadata } from '../../../hooks'
 
 const Comments = ({ postTitle, postSlug }) => {
@@ -9,15 +9,12 @@ const Comments = ({ postTitle, postSlug }) => {
     return null
   }
 
-  return null
-  // return (
-  //   <ReactDisqusComments
-  //     shortname={disqusShortname}
-  //     identifier={postTitle}
-  //     title={postTitle}
-  //     url={url + postSlug}
-  //   />
-  // )
+  return (
+    <DiscussionEmbed
+      shortname={disqusShortname}
+      config={{ identifier: postTitle, title: postTitle, url: url + postSlug }}
+    />
+  )
 }
 
 export default Comments
