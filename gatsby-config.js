@@ -28,14 +28,6 @@ module.exports = {
       }
     },
     {
-      resolve: 'gatsby-plugin-hubspot',
-      options: {
-        trackingCode: '19799796',
-        respectDNT: true,
-        productionOnly: true
-      }
-    },
-    {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'assets',
