@@ -14,7 +14,7 @@ tags:
 
 Sometimes you may struggle with Youtube Suggested Videos overlay:
 
-![Youtube suggested videos overlay sample](/media/ublock-youtube-overlay/01.png 'Sample')
+![Youtube suggested videos overlay sample](/media/ublock-youtube-overlay/poster.jpg 'Sample')
 
 Here is a quick guide to get rid of them.
 
