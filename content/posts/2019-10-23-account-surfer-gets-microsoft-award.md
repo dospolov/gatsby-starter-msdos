@@ -16,4 +16,4 @@ tags:
   - windows
 ---
 
-![](/media/as-award/01.png)
+![](/media/as-award/poster.jpg)

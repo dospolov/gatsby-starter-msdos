@@ -48,7 +48,7 @@
     "gatsby-plugin-netlify-cms/html-webpack-plugin": "5.3.1"
   },
   "scripts": {
-    "start": "npm run develop -o",
+    "start": "gatsby clean && npm run develop -o",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "serve": "gatsby serve",
